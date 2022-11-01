@@ -1,0 +1,25 @@
+.productCard{
+   list-style: none;
+   background-color: #fff;
+}
+.productCard:hover{
+    opacity: 0.8;
+}
+.imgProduct{
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    background-color: azure;
+}
+.productsGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 30px;
+    justify-content: center;
+}
+.productTitle{
+    font-weight: 500;
+}
+.productDescription{
+    font-size: 13px;
+}
