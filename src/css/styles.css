@@ -9,12 +9,17 @@ body{
     background-color: #f4f7fa;
 }
 
-.roww{
+.containerr{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 470px);
+    justify-content: center;
+}
+/* .roww{
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
+} */
 .imagee{
     background: #50A7FF;
     position: relative;
@@ -103,6 +108,10 @@ body{
 .moree .icon-links a:not(:last-child) i{
     margin-right: 20px;
 }
+.imge{
+    width: 400px;
+    height: 300px;
+}
 
 /* responsive css */
 
@@ -119,5 +128,12 @@ body{
     .moree .read-more, .moree .icon-links a i{
         font-size: 18px;
     }
+    .containerr{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 370px);
+        justify-content: center;
+        gap:10px;
+    }
+
 }
 

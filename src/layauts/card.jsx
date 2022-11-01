@@ -11,7 +11,7 @@ export const Card = ({products}) => {
                 firsthThrePoducts.map((product)=>{
                     return(
                         <li key={product.product_name} className='productCard'>
-                            <img src={product.image} className='imgProduct' alt="" />
+                            <img src={product.image} className='imgProduct' alt={product.product_name} />
                             <div className='productTitle'>{product.product_name}</div>
                             <div className='productDescription'>{product.description}</div>
                         </li>
