@@ -3,7 +3,7 @@ import '../css/carrusel.css'
 
 export const Carusel = () => {
   return (
-    <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
+    <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false" style={{top:"50px"}}>
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>

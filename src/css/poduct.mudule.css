@@ -1,6 +1,9 @@
 .productCard{
    list-style: none;
    background-color: #fff;
+   transition: 0.6s;
+   padding-right: 32px;
+   transition-property: opacity;
 }
 .productCard:hover{
     opacity: 0.8;
@@ -23,4 +26,25 @@
 }
 .productDescription{
     font-size: 13px;
+}
+.price{
+    font-size: 20px;
+}
+/* responsive css */
+@media(max-width: 500px){
+    .imgProduct{
+        border-radius: 5px;
+        width: 120px;
+        height: 120px;
+        background-color: azure;
+    }
+    .productsGrid{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 120px);
+        justify-content: center;
+        gap: 10px;
+    }
+    .productDescription{
+        font-size: 9px;
+    }
 }

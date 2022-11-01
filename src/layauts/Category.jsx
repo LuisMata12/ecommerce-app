@@ -1,4 +1,4 @@
-
+import '../css/categoryCards.css'
 
 
 export const Category = ({img_category}) => {
@@ -6,7 +6,7 @@ export const Category = ({img_category}) => {
       <>
       <div className="containerr">
             <div className="imagee">
-                <img src={img_category} alt="Hogar" className="imge"/>
+                <img src={img_category} alt="Hogar" className="imge" />
                 <div className="detailss">
                     <h2>home<samp></samp></h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo optio architecto </p>

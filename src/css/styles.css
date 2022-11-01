@@ -8,132 +8,18 @@ body{
     font-family: "Raleway";
     background-color: #f4f7fa;
 }
-
-.containerr{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 470px);
-    justify-content: center;
+.containerMain{
+    width: 93%;
 }
-/* .roww{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-} */
-.imagee{
-    background: #50A7FF;
-    position: relative;
-    flex: 1;
-    margin: 10px;
-    max-width: 400px;
-    height: 300px;
-    overflow: hidden;
-}
-.imagee img{
-    opacity: 0.8;
-    position: relative;
-    vertical-align: top;
-    transition: 0.6s;
-    transition-property: opacity;
-}
-.imagee:hover img{
-    opacity: 1;
-}
-.imagee .detailss{
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    right: 0;
-    color: #fff;
-    width: 100%;
-    height: 100%;
-}
-.imagee .detailss h2{
-    text-align: center;
-    font-size: 35px;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin-top: 70px;
-    transition: 0.6s;
-    transition-property: transform;
-}
-.imagee .detailss h2 span{
-    font-weight: 900;
-}
-.imagee:hover .detailss h2{
-    transform: translateY(-30px);
-}
-.imagee .detailss p{
-    margin: 10px 30px 0 30px;
-    font-size: 15px;
-    font-weight: 600;
-    text-align: center;
-    opacity: 0;
-    transition: 0.6s;
-    transition-property: opacity,transform;
-}
-.imagee:hover .detailss p{
-    opacity: 1;
-    transform: translateY(-40px);
-}
-.moree{
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.707);
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    bottom: -60px;
-    transition: 0.6s;
-    transition-property: bottom;
-}
-.imagee:hover .moree{
-    bottom: 0;
-}
-.moree .read-more {
-    color: #000;
-    text-decoration: none;
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 500;
-}
-.moree .read-more samp{
-    font-weight: 900;
-}
-.moree .icon-links i{
-    font-size: 20px;
-    color: #000;
-}
-.moree .icon-links a:not(:last-child) i{
-    margin-right: 20px;
-}
-.imge{
-    width: 400px;
-    height: 300px;
+ol,ul{
+    padding-left: 0px !important;
 }
 
-/* responsive css */
-
-@media (max-width: 1080px){
-    .imagee{
-        flex: 100%;
-        max-width: 400px;
+@media (max-width:500px){
+    .containerMain{
+        width: 100%;
     }
 }
-@media (max-width: 400px){
-    .imagee .detailss p{
-        font-size: 16px;
-    }
-    .moree .read-more, .moree .icon-links a i{
-        font-size: 18px;
-    }
-    .containerr{
-        display: grid;
-        grid-template-columns: repeat(auto-fill, 370px);
-        justify-content: center;
-        gap:10px;
-    }
 
-}
+
 
